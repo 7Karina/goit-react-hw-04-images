@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
 import * as API from '../services/PixabayApi';
+import { ToastContainer, toast, Slide } from 'react-toastify';
 import SearchBar from './SearchBar/SearchBar';
 import ImageGallery from './ImageGallery/ImageGallery';
 import Loader from './Loader/Loader';
 import Button from './Button/Button';
-import { ToastContainer, toast, Slide } from 'react-toastify';
 
 const App = () => {
   const [searchName, setSearchName] = useState('');
