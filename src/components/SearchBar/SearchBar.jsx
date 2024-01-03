@@ -22,7 +22,6 @@ const SearchBar = ({ onSubmit }) => {
   return (
     <header>
       <SearchForm onSubmit={hadleSubmit}>
-        <a href="https://pixabay.com/" target="_blank" rel="noreferrer"></a>
         <SearchButton>
           <SearchSpan>Search</SearchSpan>
         </SearchButton>
